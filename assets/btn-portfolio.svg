@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="132" height="34" viewBox="0 0 132 34" role="img" aria-label="PORTFOLIO">
+<title>PORTFOLIO</title>
+<style></style>
+<rect x="0.5" y="0.5" width="131" height="33" rx="6" fill="#161B22" stroke="#30363D"/>
+<text x="66.0" y="21.5" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12" text-anchor="middle" letter-spacing="1.5"><tspan fill="#E3B341">[ </tspan><tspan fill="#E6EDF3">PORTFOLIO</tspan><tspan fill="#E3B341"> ]</tspan></text>
+</svg>

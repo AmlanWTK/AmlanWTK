@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="840" height="176" viewBox="0 0 840 176" role="img" aria-label="Build status: ChartWright 14/34, DTHCMS 11/160">
+<title>Build status: ChartWright 14/34, DTHCMS 11/160</title>
+<style>
+@media (prefers-reduced-motion: reduce){ .a{animation:none !important} }
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.blink{animation:blink 1.1s steps(1,end) infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+.up{opacity:1;animation:up .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.fade{opacity:1;animation:fade .6s ease-out both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+</style>
+<rect x="0.5" y="0.5" width="839" height="175" rx="12" fill="#0D1117" stroke="#30363D"/>
+<text x="30" y="34" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="11" fill="#E3B341" text-anchor="start" letter-spacing="2">BUILD STATUS</text>
+<text x="810" y="34" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="11" fill="#8B949E" text-anchor="end" >checkpoint-driven · September 2026</text>
+<circle class="pulse" cx="38" cy="73" r="4" fill="#3FB950" style="animation-delay:0.0s"/>
+<text x="52" y="78" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif' font-size="15" font-weight="700" fill="#E6EDF3" text-anchor="start" >ChartWright</text>
+<text x="52" y="95" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="10.5" fill="#8B949E" text-anchor="start" >clinical document intelligence · VLM cascade + grounding contract</text>
+<rect x="468" y="67" width="196" height="8" rx="4" fill="#21262D"/>
+<rect x="468" y="67" width="80.7" height="8" rx="4" fill="#E3B341"><animate attributeName="width" from="0" to="80.7" begin="0.4s" dur="1.2s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
+<text x="680" y="78" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12" fill="#E6EDF3" text-anchor="start" >CP 14 / 34 </text>
+<text x="810" y="78" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12" fill="#E3B341" text-anchor="end" >41%</text>
+<circle class="pulse" cx="38" cy="121" r="4" fill="#3FB950" style="animation-delay:0.6s"/>
+<text x="52" y="126" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif' font-size="15" font-weight="700" fill="#E6EDF3" text-anchor="start" >DTHCMS</text>
+<text x="52" y="143" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="10.5" fill="#8B949E" text-anchor="start" >bilingual clinic operating system · Go monolith + Next.js + Expo</text>
+<rect x="468" y="115" width="196" height="8" rx="4" fill="#21262D"/>
+<rect x="468" y="115" width="13.5" height="8" rx="4" fill="#E3B341"><animate attributeName="width" from="0" to="13.5" begin="0.65s" dur="1.2s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
+<text x="680" y="126" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12" fill="#E6EDF3" text-anchor="start" >CP 11 / 160</text>
+<text x="810" y="126" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12" fill="#E3B341" text-anchor="end" >7%</text>
+</svg>

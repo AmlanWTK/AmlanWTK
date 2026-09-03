@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="840" height="300" viewBox="0 0 840 300" role="img" aria-label="Architecture: Dataloom's guarded NL→SQL pipeline">
+<title>Architecture: Dataloom's guarded NL→SQL pipeline</title>
+<style>
+@media (prefers-reduced-motion: reduce){ .a{animation:none !important} }
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.blink{animation:blink 1.1s steps(1,end) infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+.up{opacity:1;animation:up .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.fade{opacity:1;animation:fade .6s ease-out both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+</style>
+<rect x="0.5" y="0.5" width="839" height="299" rx="12" fill="#0D1117" stroke="#30363D"/>
+<text x="30" y="34" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="11" fill="#E3B341" text-anchor="start" letter-spacing="2">DATALOOM  ·  GUARDED NL → SQL</text>
+<text x="810" y="34" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="11" fill="#8B949E" text-anchor="end" >the model proposes · the validator decides</text>
+<path d="M96 126 L744 126" stroke="#30363D" stroke-width="1.5" fill="none"/>
+<path d="M744 156 L744 222 L96 222 L96 156" stroke="#30363D" stroke-width="1.5" fill="none" stroke-dasharray="4 4"/>
+<path d="M582 156 L582 244" stroke="#FF7B72" stroke-width="1.2" fill="none" opacity=".5" stroke-dasharray="3 4"/>
+<path d="M179 121 L186 126 L179 131" fill="none" stroke="#8B949E" stroke-width="1.5"/>
+<path d="M341 121 L348 126 L341 131" fill="none" stroke="#8B949E" stroke-width="1.5"/>
+<path d="M503 121 L510 126 L503 131" fill="none" stroke="#8B949E" stroke-width="1.5"/>
+<path d="M665 121 L672 126 L665 131" fill="none" stroke="#8B949E" stroke-width="1.5"/>
+<path d="M91 165 L96 157 L101 165" fill="none" stroke="#8B949E" stroke-width="1.5"/>
+<circle r="4" fill="#E3B341"><animateMotion dur="4.2s" repeatCount="indefinite" path="M96 126 L744 126"/></circle>
+<circle r="4" fill="#E3B341" opacity=".55"><animateMotion dur="4.2s" begin="2.1s" repeatCount="indefinite" path="M96 126 L744 126"/></circle>
+<circle r="4" fill="#79C0FF"><animateMotion dur="5s" begin="1s" repeatCount="indefinite" path="M744 156 L744 222 L96 222 L96 156"/></circle>
+<circle r="4" fill="#FF7B72"><animateMotion dur="6s" begin="3s" repeatCount="indefinite" path="M258 126 L582 126 L582 244"/><animate attributeName="opacity" values="1;1;0" keyTimes="0;.92;1" dur="6s" begin="3s" repeatCount="indefinite"/></circle>
+<rect x="30.0" y="96" width="132" height="60" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+<text x="96.0" y="122" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif' font-size="13.5" font-weight="700" fill="#E6EDF3" text-anchor="middle" >Browser</text>
+<text x="96.0" y="141" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="10.5" fill="#8B949E" text-anchor="middle" >Next.js 15 · ECharts</text>
+<rect x="192.0" y="96" width="132" height="60" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+<text x="258.0" y="122" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif' font-size="13.5" font-weight="700" fill="#E6EDF3" text-anchor="middle" >FastAPI</text>
+<text x="258.0" y="141" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="10.5" fill="#8B949E" text-anchor="middle" >/query · SSE</text>
+<rect x="354.0" y="96" width="132" height="60" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+<text x="420.0" y="122" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif' font-size="13.5" font-weight="700" fill="#E6EDF3" text-anchor="middle" >Gemini</text>
+<text x="420.0" y="141" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="10.5" fill="#8B949E" text-anchor="middle" >drafts SQL</text>
+<rect x="516.0" y="96" width="132" height="60" rx="8" fill="#161B22" stroke="#E3B341" stroke-width="1.5"/>
+<text x="582.0" y="122" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif' font-size="13.5" font-weight="700" fill="#E6EDF3" text-anchor="middle" >AST validator</text>
+<text x="582.0" y="141" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="10.5" fill="#E3B341" text-anchor="middle" >sqlglot allowlist</text>
+<rect x="678.0" y="96" width="132" height="60" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+<text x="744.0" y="122" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif' font-size="13.5" font-weight="700" fill="#E6EDF3" text-anchor="middle" >PostgreSQL</text>
+<text x="744.0" y="141" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="10.5" fill="#8B949E" text-anchor="middle" >read-only</text>
+<text x="420.0" y="210" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="11" fill="#79C0FF" text-anchor="middle" >SSE stream → table · chart · grounded explanation</text>
+<text x="582.0" y="260" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="10.5" fill="#FF7B72" text-anchor="middle" >✗  mutation · injection · forbidden statement  →  refused</text>
+<text x="30" y="286" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="10.5" fill="#484F58" text-anchor="start" >every LLM-generated query is parsed into an AST and checked against a deterministic allowlist before execution</text>
+</svg>

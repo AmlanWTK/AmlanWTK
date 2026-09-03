@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="840" height="250" viewBox="0 0 840 250" role="img" aria-label="Amlan Sarkar — Full-stack × AI systems engineer">
+<title>Amlan Sarkar — Full-stack × AI systems engineer</title>
+<style>
+@media (prefers-reduced-motion: reduce){ .a{animation:none !important} }
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.blink{animation:blink 1.1s steps(1,end) infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+.up{opacity:1;animation:up .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.fade{opacity:1;animation:fade .6s ease-out both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+
+.sweep{transform-origin:40px 0;transform:scaleX(1);animation:sweep .9s cubic-bezier(.2,.7,.2,1) both}
+@keyframes sweep{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+</style>
+<rect x="0.5" y="0.5" width="839" height="249" rx="12" fill="#0D1117" stroke="#30363D"/>
+<defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+<circle cx="1" cy="1" r="1" fill="#21262D"/></pattern>
+<linearGradient id="fadeR" x1="0" x2="1"><stop offset="0" stop-color="#0D1117" stop-opacity="0"/><stop offset="1" stop-color="#0D1117" stop-opacity="1"/></linearGradient></defs>
+<rect x="1" y="1" width="838" height="248" rx="12" fill="url(#dots)"/>
+<g class="a fade" style="animation-delay:.05s"><text x="40" y="52" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12" fill="#8B949E" text-anchor="start" >// github.com/AmlanWTK</text></g>
+<g class="a up" style="animation-delay:.2s"><text x="38" y="118" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif' font-size="56" font-weight="800" fill="#E6EDF3" text-anchor="start" letter-spacing="-1.5">Amlan Sarkar</text></g>
+<g class="a up" style="animation-delay:.45s"><text x="40" y="156" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#E3B341" text-anchor="start" letter-spacing="3.5">FULL-STACK  ×  AI SYSTEMS ENGINEER</text></g>
+<rect class="a sweep" style="animation-delay:.7s" x="40" y="168" width="470" height="2" fill="#E3B341"/>
+<g class="a up" style="animation-delay:.95s"><text x="40" y="206" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif' font-size="16" font-weight="400" fill="#8B949E" text-anchor="start" >Products shipped end to end. AI that is grounded, guarded and measured.</text><rect class="blink" x="576" y="193" width="9" height="17" fill="#E3B341"/></g>
+<g class="a fade" style="animation-delay:1.25s">
+<text x="548" y="152" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="11" fill="#484F58" text-anchor="start" >stack</text>
+<text x="614" y="152" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="11" fill="#8B949E" text-anchor="start" >next · fastapi · go · flutter</text>
+<text x="548" y="172" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="11" fill="#484F58" text-anchor="start" >domains</text>
+<text x="614" y="172" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="11" fill="#8B949E" text-anchor="start" >clinical · legal · commerce</text>
+<text x="548" y="192" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="11" fill="#484F58" text-anchor="start" >status</text>
+<circle class="pulse" cx="614" cy="188" r="3.5" fill="#3FB950"/>
+<text x="624" y="192" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="11" fill="#8B949E" text-anchor="start" >building</text>
+</g>
+<path d="M800 30 h14 v14 M40 220 v-14 h14" fill="none" stroke="#484F58" stroke-width="1.5" opacity=".6"/>
+</svg>
